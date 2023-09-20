@@ -2,6 +2,7 @@
 
 # dependencies
 /board-front/node_modules
+/board-front/out/
 /.pnp
 .pnp.js
 
@@ -16,7 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.idea
+.idea/
 board-front/main*
 npm-debug.log*
 yarn-debug.log*
