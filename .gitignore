@@ -2,7 +2,7 @@
 
 # dependencies
 /board-front/node_modules
-/board-front/out/
+/board-front/out/*
 /.pnp
 .pnp.js
 # gradle
