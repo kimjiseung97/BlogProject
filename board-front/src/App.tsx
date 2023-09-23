@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import BoardListItem from 'constants/BoradListItem';
+import BoardItem from 'components/BoradItem'
+import { latestBoardListMock } from 'mocks';
 
 function App() {
   return (
     <>
-      <BoardListItem/>
+      {latestBoardListMock.map(boardListItem=> <BoardItem boardListItme={boardListItem} />)}
     </>
   );
 }
