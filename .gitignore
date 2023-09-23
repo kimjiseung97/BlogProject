@@ -5,7 +5,7 @@
 /board-front/out/
 /.pnp
 .pnp.js
-
+.gradle/*
 # testing
 /coverage
 # production
