@@ -25,7 +25,7 @@ function Top3Item({top3ListItem}:Props) {
 
   return (
     <div className='top-3-list-item' style={{backgroundImage: `url(${boardTitleImage})`}} onClick={onClickHandler}>
-        <div className="top-3-list-item-main-box">
+        <div className='top-3-list-item-main-box'>
             <div className='top-3-list-item-top'>
                 <div className='top-3-list-item-profilebox'>
                     <div className="top-3-list-item-profile-image" style={{backgroundImage: `url(${writerProfileImage ? writerProfileImage : defaultProfileImage})`}}>
