@@ -25,3 +25,6 @@ yarn-debug.log*
 yarn-error.log*
 
 application.properties
+
+/src/main/*
+/src/test
